@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/images/white-4298475_1920.jpg");
+  font-family: "Comfortaa", cursive;
+}
+
+.our-navbar li a {
+  text-decoration: none;
+  color: rgb(63, 60, 60);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+}
+
+.main-links {
+  display: flex;
+  height: 500px;
+  align-content: space-around;
+  justify-content: center;
+}
+
+.page-link {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: transparent;
+  padding: 50px;
+  height: 100px;
+}
+
+.page-link a {
+  text-decoration: none;
+  color: rgb(63, 60, 60);
+  font-size: 2em;
+  padding: 20px;
+}
+
+.page-link:hover {
+  background: rgba(158, 154, 154, 0.438);
+}
+
+#arrow img {
+  max-width: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+}
+
+.navbar-header button {
+}
