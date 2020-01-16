@@ -1,0 +1,21 @@
+/* Nav Bar */
+.page2heading {
+  margin-bottom: 40px;
+}
+
+/* CEO Section */
+.ceo {
+  margin-top: 100px;
+}
+.ceoheading {
+  margin-bottom: 40px;
+}
+.phototext {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+/* Footer */
+footer a:hover {
+  color: black !important;
+  text-decoration: none;
+}
