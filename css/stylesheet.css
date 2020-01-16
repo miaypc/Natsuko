@@ -5,6 +5,8 @@ body {
   font-family: "Comfortaa", cursive;
 }
 
+/*Navigation menu */
+
 .our-navbar li a {
   text-decoration: none;
   color: rgb(63, 60, 60);
@@ -15,12 +17,15 @@ body {
   font-size: 1.5em;
 }
 
+/*logo home*/
 .logo {
   display: flex;
   justify-content: center;
 }
 .logo img {
 }
+
+/*Links to Portfolio, Stores and News on home*/
 
 .main-links {
   display: flex;
@@ -62,10 +67,4 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.navbar {
-}
-
-.navbar-header button {
 }
