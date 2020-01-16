@@ -45,6 +45,7 @@ body {
   background-color: transparent;
   padding: 50px;
   height: 100px;
+  color: rgb(122, 117, 117);
 }
 
 .page-link a {
@@ -54,14 +55,15 @@ body {
   padding: 20px;
 }
 
-.page-link:hover {
-  background: transparent;
-  font-size: 2em;
+.page-link:hover > a {
+  color: rgb(122, 117, 117);
+  font-size: 3em;
 }
 
-.page-link a:hover {
-  color: rgb(122, 117, 117);
+.page-link:hover {
+  background-color: transparent;
 }
+
 #arrow img {
   max-width: 60px;
   display: block;
