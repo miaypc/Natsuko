@@ -1,6 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/white-4298475_1920.jpg");
+  font-family: "Comfortaa", cursive;
+}
+
 /* Nav Bar */
 .page2heading {
-  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.our-navbar li a {
+  text-decoration: none;
+  color: rgb(63, 60, 60);
+}
+
+.navbar-header button {
+  border: 0 solid transparent;
+  font-size: 1.5em;
 }
 
 /* CEO Section */
@@ -11,8 +28,8 @@
   margin-bottom: 40px;
 }
 .phototext {
-  margin-top: 40px;
-  margin-bottom: 80px;
+  margin-top: 80px;
+  margin-bottom: 120px;
 }
 /* Footer */
 footer a:hover {
