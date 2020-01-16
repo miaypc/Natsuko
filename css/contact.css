@@ -1,0 +1,24 @@
+.row no-gutters {
+  margin-right: 100px;
+  margin-left: 50px;
+}
+
+.contactHeading {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.inputs {
+  padding: 20px;
+}
+
+.card-img {
+  margin-top: 35px;
+}
+.col-md-8 {
+  padding: 15px;
+}
+form {
+  padding: 15px;
+}

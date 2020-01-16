@@ -1,0 +1,16 @@
+img {
+  height: 500px;
+  width: auto;
+}
+
+.header {
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
