@@ -10,6 +10,11 @@ body {
   color: rgb(63, 60, 60);
 }
 
+.navbar-header button {
+  border: 0 solid transparent;
+  font-size: 1.5em;
+}
+
 .logo {
   display: flex;
   justify-content: center;
@@ -22,6 +27,8 @@ body {
   height: 500px;
   align-content: space-around;
   justify-content: center;
+  padding: 50px;
+  margin-top: 50px;
 }
 
 .page-link {
@@ -42,10 +49,14 @@ body {
   padding: 20px;
 }
 
-/*.page-link:hover {
-  background: rgba(158, 154, 154, 0.438);
-}*/
+.page-link:hover {
+  background: transparent;
+  font-size: 2em;
+}
 
+.page-link a:hover {
+  color: rgb(122, 117, 117);
+}
 #arrow img {
   max-width: 60px;
   display: block;
