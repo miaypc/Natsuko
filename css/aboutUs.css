@@ -1,23 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("../images/white-4298475_1920.jpg");
+  /* background-image: url("../images/white-4298475_1920.jpg"); */
   font-family: "Comfortaa", cursive;
 }
 
 /* Nav Bar */
 .nav-top {
-  margin-top: 35px;
-}
-
-/* Home and Office */
-
-.homeandoffice {
-  margin-top: 70px;
-  margin-bottom: 100px;
-}
-.homeandofficeheading {
-  padding-bottom: 10px;
+  margin-top: 3vh;
 }
 .our-navbar li a {
   text-decoration: none;
@@ -29,16 +19,35 @@ body {
   font-size: 1.5em;
 }
 
-/* CEO Section */
-.ceo {
-  margin-top: 200px;
-  margin-bottom: 200px;
+/* Home and Office */
+
+.homeandoffice {
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+}
+.homeandofficeheading {
+  padding: 3%;
+}
+.homeofficetitle {
+  padding-bottom: 2vh;
 }
 
-.ceo-heading {
-  padding-bottom: 10px;
-  padding-left: 5px;
+/* CEO Section */
+.ceo {
+  margin-top: 50vh;
+  margin-bottom: 50vh;
 }
+.ceo-heading {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.ceo-title {
+  padding-bottom: 3vh;
+}
+.text {
+  line-height: 1.7rem;
+}
+
 /* Footer */
 footer a:hover {
   color: black !important;
