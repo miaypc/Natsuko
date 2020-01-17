@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("../images/white-4298475_1920.jpg");
+  /*background-image: url("../images/white-4298475_1920.jpg")*/
   font-family: "Comfortaa", cursive;
 }
 
@@ -23,6 +23,9 @@ body {
 .card-img {
   height: 500px;
   width: 750px;
+}
+.card1 {
+  border: none;
 }
 
 .header {
