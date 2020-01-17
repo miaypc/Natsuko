@@ -74,7 +74,8 @@ body {
 
 /* News section */
 
-.news-teaser {
+#news-teaser {
   margin-top: 100px;
   padding-top: 100px;
+  margin-bottom: 200px;
 }
