@@ -1,3 +1,18 @@
+/* Nav Bar */
+.page2heading {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.our-navbar li a {
+  text-decoration: none;
+  color: rgb(63, 60, 60);
+}
+
+.navbar-header button {
+  border: 0 solid transparent;
+  font-size: 1.5em;
+}
+
 img {
   height: 500px;
   width: auto;
@@ -13,4 +28,9 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+/* Footer */
+footer a:hover {
+  color: black !important;
+  text-decoration: none;
 }
