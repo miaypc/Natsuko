@@ -6,9 +6,18 @@ body {
 }
 
 /* Nav Bar */
-.page2heading {
+.nav-top {
   margin-top: 40px;
+}
+
+/* Home and Office */
+
+.homeandoffice {
+  margin-top: 90px;
   margin-bottom: 80px;
+}
+.homeandofficeheading {
+  padding-bottom: 10px;
 }
 .our-navbar li a {
   text-decoration: none;
@@ -22,14 +31,13 @@ body {
 
 /* CEO Section */
 .ceo {
-  margin-top: 100px;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
-.ceoheading {
-  margin-bottom: 40px;
-}
-.phototext {
-  margin-top: 80px;
-  margin-bottom: 120px;
+
+.ceo-heading {
+  padding-bottom: 10px;
+  padding-left: 5px;
 }
 /* Footer */
 footer a:hover {
