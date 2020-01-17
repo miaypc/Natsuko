@@ -7,6 +7,10 @@ body {
 
 /*Navigation menu */
 
+.nav-tag {
+  background-color: rgba(255, 255, 255, 0.534);
+}
+
 .our-navbar li a {
   text-decoration: none;
   color: rgb(63, 60, 60);
@@ -21,8 +25,7 @@ body {
 .logo {
   display: flex;
   justify-content: center;
-}
-.logo img {
+  margin-top: 100px;
 }
 
 /*Links to Portfolio, Stores and News on home*/
@@ -38,14 +41,9 @@ body {
 }
 
 .page-link {
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   background-color: transparent;
   padding: 50px;
-  height: 100px;
   color: rgb(122, 117, 117);
 }
 
@@ -65,17 +63,66 @@ body {
   background-color: transparent;
 }
 
-#arrow img {
-  max-width: 60px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* News section */
 
 #news-teaser {
-  margin-top: 100px;
-  padding-top: 100px;
-  margin-bottom: 200px;
+  display: flex;
+  margin: 425px 0 200px;
+  padding: 0;
+}
+
+/* Media Queries */
+
+/* orientation : landscape */
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 700px) and (orientation: portrait) {
+  /*Links to Portfolio,
+  Stores and News on home*/
+
+  .main-links {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    align-content: space-between;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px 0 10px;
+  }
+
+  .page-link {
+    text-align: center;
+    background-color: transparent;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(122, 117, 117);
+  }
+
+  .page-link a {
+    color: rgb(63, 60, 60);
+    font-size: 1.5em;
+    text-decoration: underline;
+  }
+
+  .page-link:hover > a {
+    color: rgb(122, 117, 117);
+    font-size: 1.5em;
+  }
+
+  .page-link:hover {
+    background-color: transparent;
+  }
+
+  /* News section */
+
+  #news-teaser {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 100px;
+  }
 }
