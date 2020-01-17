@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/white-4298475_1920.jpg");
+  font-family: "Comfortaa", cursive;
+}
+
 /* Nav Bar */
 .page2heading {
   margin-top: 40px;
@@ -29,7 +36,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
-/* Footer */
+/* Footer hhhhhh */
 footer a:hover {
   color: black !important;
   text-decoration: none;
