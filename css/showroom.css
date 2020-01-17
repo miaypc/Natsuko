@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("../images/white-4298475_1920.jpg");
+  /*background-image: url("../images/white-4298475_1920.jpg")*/
   font-family: "Comfortaa", cursive;
 }
 
@@ -20,9 +20,12 @@ body {
   font-size: 1.5em;
 }
 /*page content*/
-img {
+.card-img {
   height: 500px;
-  width: auto;
+  width: 750px;
+}
+.card1 {
+  border: none;
 }
 
 .header {
@@ -30,13 +33,14 @@ img {
   margin-bottom: 90px;
 }
 /*links*/
-a {
-  text-decoration: none;
+.citylink {
+  color: black;
 }
-a:hover {
-  text-decoration: underline;
+.citylink:hover {
+  color: black;
 }
-/* Footer hhhhhh */
+
+/* Footer */
 footer a:hover {
   color: black !important;
   text-decoration: none;

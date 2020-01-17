@@ -8,7 +8,9 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet" />
     <!-- Bootstrap CSS -->
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -58,23 +60,22 @@
         Showrooms
       </h3>
       <ul class="list-inline text-center">
-        <li class="list-inline-item"><a href="#berlin">Berlin</a></li>
-        <li class="list-inline-item"><a href="#paris">Paris</a></li>
-        <li class="list-inline-item"><a href="#london">London</a></li>
+        <li class="list-inline-item"><a class="citylink" href="#berlin">Berlin</a></li>
+        <li class="list-inline-item"><a class="citylink" href="#paris">Paris</a></li>
+        <li class="list-inline-item"><a class="citylink" href="#london">London</a></li>
       </ul>
     </div>
-    <!--Picttures of showrooms and info-->
 
     
-   
-      <div class="card mb-3" style="full-width">
+   <!--Berlin-->
+      <div id ="berlin" class="card mb-3" style="full-width">
         <div class="row no-gutters">
           <div class="col-md-8">
-            <img src="berlin.jpg" class="card-img" alt="..." />
+            <img src="images/berlin.jpg" class="img-fluid card-img" alt="Responsive image">
           </div>
           <div class="col-md-4">
             <div class="card-body">
-              <h5 id ="berlin" class="card-title berlin">Berlin</h5>
+              <h5  class="card-title berlin">Berlin</h5>
               <p class="card-text">Scharnhorststraße 5 <br>
                 10115 Berlin, Germany</p>
               <p class="card-text">
@@ -85,15 +86,15 @@
         </div>
       </div>
   
-      
-      <div class="card mb-3" style="full-width">
+    <!--Paris-->
+      <div id ="paris" class="card mb-3" style="full-width">
         <div class="row no-gutters">
           <div class="col-md-8">
-            <img src="studio2.jpg" class="card-img" alt="..." />
+            <img src="images/studio2.jpg" class="img-fluid card-img" alt="Responsive image">
           </div>
           <div class="col-md-4">
             <div class="card-body">
-              <h5 id ="paris" class="card-title">Paris</h5>
+              <h5  class="card-title">Paris</h5>
               <p class="card-text">9 Rue des Gobelins <br> 75013 Paris, France</p>
               <p class="card-text">
                 <small class="text-muted">Aimée Dalton <br> aimee.dalton@gmail.com</small>
@@ -103,14 +104,15 @@
         </div>
       </div>
       
-      <div class="card mb-3" style="full-width">
+  <!--London-->
+      <div id ="london" class="card mb-3" style="full-width">
         <div class="row no-gutters">
           <div class="col-md-8">
-            <img src="studio3.jpg" class="card-img" alt="..." />
+            <img src="images/studio3.jpg" class="img-fluid card-img" alt="Responsive image">
           </div>
           <div class="col-md-4">
             <div class="card-body">
-              <h5 id ="london" class="card-title">London</h5>
+              <h5  class="card-title">London</h5>
               <p class="card-text">191 Portobello Rd, Notting Hill <br> London W11 2ED, United Kingdom</p>
               <p class="card-text">
                 <small class="text-muted">Thomas Pearson <br> thomas.pearson@gmail.com</small>
@@ -120,8 +122,18 @@
         </div>
       </div>
     </div>
-
-    <!--footer -->
+      <!-- Footer -->
+            <footer class="page-footer font-small">
+              <div class="footer-copyright text-center py-3">
+                © 2020 Copyright:
+                <a
+                  class="text-dark"
+                  href="https://mdbootstrap.com/education/bootstrap/"
+                >
+                  Natsuko.com</a
+                >
+              </div>
+            </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
