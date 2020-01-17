@@ -22,7 +22,7 @@ body {
 /*page content*/
 .card-img {
   height: 500px;
-  width: auto;
+  width: 750px;
 }
 
 .header {
@@ -30,8 +30,11 @@ body {
   margin-bottom: 90px;
 }
 /*links*/
-a {
-  text-decoration: none;
+.citylink {
+  color: black;
+}
+.citylink:hover {
+  color: black;
 }
 
 /* Footer */
