@@ -1,3 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  /*background-image: url("../images/white-4298475_1920.jpg");*/
+  font-family: "Comfortaa", cursive;
+}
+
+/* Nav Bar */
+.page2heading {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.our-navbar li a {
+  text-decoration: none;
+  color: rgb(63, 60, 60);
+}
+
+.navbar-header button {
+  border: 0 solid transparent;
+  font-size: 1.5em;
+}
+/*page content*/
 .row no-gutters {
   margin-right: 100px;
   margin-left: 50px;
@@ -14,11 +36,20 @@
 }
 
 .card-img {
-  margin-top: 35px;
+  margin-top: 60px;
 }
 .col-md-8 {
   padding: 15px;
 }
+.bordermore {
+  margin-bottom: 300px;
+  margin-top: 100px;
+}
 form {
   padding: 15px;
+}
+/* Footer */
+footer a:hover {
+  color: black !important;
+  text-decoration: none;
 }

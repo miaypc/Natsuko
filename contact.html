@@ -7,28 +7,58 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet" />
     <!-- Bootstrap CSS -->
+    
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-<!--heading contact-->
+
     <link rel = "stylesheet" type = "text/css" href = "css/contact.css" />
   </head>
   <body>
+    <!--header-->
+    <header>
+      <nav class="navbar navbar-inverse navbar-static-t">
+        <div class="container-fluid">
+          <div class="navbar-header">
+  
+            <button type="button" class="navbar-toggle bg-transparent" data-toggle="collapse" data-target="#myNavbar"><i
+                class="fa fa-bars"></i> Menu
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav our-navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="#news-teaser">News</a></li>
+                <li><a href="aboutUs.html">Portfolio</a></li>
+                <li><a href="showroom.html">Stores</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <a class="navbar-brand ml-auto" href="#">
+            <img src="images/logo.png" alt="logo" style="width:100px;" />
+          </a>
+      </nav>
+    </header>
+
+    <!--heading contact-->
     <h1 class="contactHeading">Contact</h1>
 
 
 <!--picture and input fields-->
-<div class="card mb-3" style="full-width">
-  <div class="row no-gutters">
-    <div class="col-md-4">
-      <img src="pictures/getintouch.jpg" class="card-img" alt="...">
+<div class="bordermore " style="full-width">
+  <div class="row no-gutters ">
+    <div class="col-md-4 ">
+      <img src="images/getintouch.jpg" class="card-img" alt="picture of telephone">
     </div>
-    <div class="card col-md-8">
+    <div class=" col-md-8">
     <form>
       <div class="form-group">
         <label for="exampleFormControlSelect1">City</label>
@@ -48,7 +78,7 @@
   <!--input for message -->
     <div class="form-group">
       <label for="exampleFormControlTextarea1">Your message</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required ></textarea>
     </div>
    
   
@@ -61,7 +91,18 @@
 </div>
 </form>
 </div>
-
+        <!-- Footer -->
+        <footer class="page-footer font-small">
+          <div class="footer-copyright text-center py-3">
+            © 2020 Copyright:
+            <a
+              class="text-dark"
+              href="https://mdbootstrap.com/education/bootstrap/"
+            >
+              Natsuko.com</a
+            >
+          </div>
+        </footer>
 
 
     <!-- Optional JavaScript -->
