@@ -5,12 +5,6 @@ body {
   font-family: "Comfortaa", cursive;
 }
 
-/*Navigation menu */
-
-/* .nav-tag {
-  background-color: rgba(255, 255, 255, 0.534);
-} */
-
 .nav-button {
   background-color: rgba(255, 255, 255, 0.534);
 }
@@ -35,7 +29,7 @@ body {
 }
 
 /*Links to Portfolio, Stores and News on home*/
-.main-links-row {
+.main-links {
   height: 500px;
   padding: 50px;
   margin-top: 50px;
