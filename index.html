@@ -17,17 +17,17 @@
 <body>
   <header>
     <!--Navigation menu-->
-    <nav class="nav-tag navbar navbar-inverse navbar-static-t fixed-top">
+    <nav class="nav-tag navbar navbar-inverse navbar-static-t fixed-top pl-0">
       <div class="container-fluid">
         <div class="navbar-header">
 
-          <button type="button" class="navbar-toggle bg-transparent pt-3" data-toggle="collapse"
+          <button type="button" class=" nav-button navbar-toggle pt-3 border-light rounded" data-toggle="collapse"
             data-target="#myNavbar"><i class="fa fa-bars"></i> Menu
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <div class="collapse navbar-collapse" id="myNavbar">
+          <div class="collapse navbar-collapse all-navlinks rounded" id="myNavbar">
             <ul class="nav navbar-nav our-navbar">
               <li><a class="active" href="index.html">Home</a></li>
               <li><a href="#news-teaser">News</a></li>
@@ -49,23 +49,22 @@
 
 
   <!-- Links to Portfolio, Stores and News on home -->
-
-  <section class="row main-links">
-    <div class="col-lg-6 col-sm-12 page-link border-0"><a href="aboutUs.html">Portfolio</a></div>
-    <div class="col-lg-6 col-sm-12 page-link border-0"><a href="showroom.html">Stores</a></div>
-    <div class="col-12 page-link border-0"><a href="#news-teaser">News</a></div>
-
-    <!-- <div id="arrow" class="col-12">
-
-      <img src="./images/arrow.png" alt="down facing arrow" />
-    </div> -->
+  <section class="main-links container">
+    <div class="row main-links-row">
+      <div class="col-lg-6 col-sm-12 page-link border-0"><a href="aboutUs.html">Portfolio</a></div>
+      <div class="col-lg-6 col-sm-12 page-link border-0"><a href="showroom.html">Stores</a></div>
+    </div>
+    <div class="row main-links-row">
+      <div class="col-12 page-link border-0"><a href="#news-teaser">News</a></div>
+    </div>
   </section>
+
 
   <!-- News-Teaser-->
   <div class="container col-12 mt-3">
     <section id="news-teaser" class="row justify-content-around">
       <div class="teaser-card col-lg-3 col-sm-10-offset-1 card  shadow border border-light mb-3">
-        <img src="./images/award.jpg" class="card-img-top pt-3" alt="Picture of an award">
+        <img src="./images/award.jpg" class="card-img-top pt-3 zoom" alt="Picture of an award">
         <div class="card-body">
           <h5 class="card-title">We won!</h5>
           <p class="card-text"><b>natsu ko</b> took part in the famous competition DesignIn and...</p>
@@ -94,11 +93,11 @@
 
   <!-- News complete -->
 
-  <section class=" container news-complete col-12 mt-3">
+  <section class=" container news-complete col-lg-10 col-sm-12 mt-3 p-3">
     <div class=" justify-content-center">
       <h2>News</h2>
     </div>
-    <div id="award" class="col-lg-10-offset-1 col-sm-12 card mt-3 border-light shadow">
+    <div id="award" class="col-lg-8-offset-2 col-sm-12 card mt-3 border-light shadow">
       <img class="card-img-top pt-3" src="./images/award.jpg" alt="award">
 
       <div class="card-body">
