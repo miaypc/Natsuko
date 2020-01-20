@@ -7,7 +7,11 @@ body {
 
 /*Navigation menu */
 
-.nav-tag {
+/* .nav-tag {
+  background-color: rgba(255, 255, 255, 0.534);
+} */
+
+.nav-button {
   background-color: rgba(255, 255, 255, 0.534);
 }
 
@@ -16,9 +20,11 @@ body {
   color: rgb(63, 60, 60);
 }
 
-.navbar-header button {
+.navbar-header button,
+.all-navlinks {
   border: 0 solid transparent;
   font-size: 1.5em;
+  background-color: rgba(255, 255, 255, 0.534);
 }
 
 /*logo home*/
