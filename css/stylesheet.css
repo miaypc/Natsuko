@@ -76,6 +76,13 @@ body {
 /* orientation : landscape */
 
 @media only screen and (min-device-width: 280px) and (max-device-width: 700px) and (orientation: portrait) {
+  /*logo home*/
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0 0;
+  }
+
   /*Links to Portfolio,
   Stores and News on home*/
 
