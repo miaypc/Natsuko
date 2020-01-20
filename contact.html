@@ -16,7 +16,8 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-
+    
+    
     <link rel = "stylesheet" type = "text/css" href = "css/contact.css" />
   </head>
   <body>
@@ -73,15 +74,22 @@
           <option>Customer service</option>
         </select>
       </div>
-  <!--input for message -->
+      <!--input for email-->
+     
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted"> Your data is protected</small>
+        </div>
+        
+        <!--input for message -->
     <div class="form-group">
       <label for="exampleFormControlTextarea1">Your message</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required ></textarea>
+      <textarea class="form-control" id="usersMessage" rows="3" required ></textarea>
     </div>
-   
   
         <!--send button-->
-        <button type="button" class="btn btn-light">Send</button>
+        <button type="button" class="btn btn-light" id="sendButton">Send</button>
       </div>
       </div>
     </div>
@@ -106,6 +114,7 @@
     <!-- Optional JavaScript -->
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="showroom.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
