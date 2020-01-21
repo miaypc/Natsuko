@@ -1,13 +1,18 @@
 body {
   margin: 0;
   padding: 0;
-  /* background-image: url("../images/white-4298475_1920.jpg"); */
+  /* background-image: url("../images/white-4298475_1920.jpg");
+  background-repeat: no-repeat; */
   font-family: "Comfortaa", cursive;
 }
 
 /* Nav Bar */
-.nav-top {
-  margin-top: 3vh;
+
+.sticklogo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
 }
 .our-navbar li a {
   text-decoration: none;
@@ -22,27 +27,43 @@ body {
 /* Home and Office */
 
 .homeandoffice {
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+}
+.homeofficeoutside {
+}
+.hometitle {
+  position: absolute;
+  color: white;
+  top: 30vh;
+  left: 5vw;
+}
+.homeofficetext {
+  position: absolute;
+  color: white;
+  top: 40vh;
+  text-align: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+/* Slider */
+.portfolio {
+  margin-bottom: 10vh;
+  letter-spacing: 1.5px;
+}
+/* CEO Section */
+.aboutus {
+  margin-top: 20vh;
+  letter-spacing: 1.5px;
+}
+.ceo {
   margin-top: 10vh;
   margin-bottom: 20vh;
-}
-.homeandofficeheading {
   padding: 3%;
 }
-.homeofficetitle {
-  padding-bottom: 2vh;
-}
 
-/* CEO Section */
-.ceo {
-  margin-top: 50vh;
-  margin-bottom: 50vh;
-}
-.ceo-heading {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-}
 .ceo-title {
-  padding-bottom: 3vh;
+  padding-top: 1vh;
 }
 .text {
   line-height: 1.7rem;
@@ -50,6 +71,6 @@ body {
 
 /* Footer */
 footer a:hover {
-  color: black !important;
+  color: white !important;
   text-decoration: none;
 }
