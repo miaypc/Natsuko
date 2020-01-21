@@ -1,65 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- Bootstrap CSS -->
-    
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    
-    
-    <link rel = "stylesheet" type = "text/css" href = "css/contact.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel ="stylesheet" href="./css/contact.css">
+  
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet" />
+
   </head>
   <body>
-    <!--header-->
     <header>
-      <nav class="navbar navbar-inverse navbar-static-t nav-top ">
-        <div class="container-fluid">
-          <div class="navbar-header"> 
-            <button type="button" class="navbar-toggle bg-transparent" data-toggle="collapse" data-target="#myNavbar"><i
-                class="fa fa-bars"></i> Menu
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="myNavbar">
-              <ul class="nav navbar-nav our-navbar">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="index.html/#news-teaser">News</a></li>
-                <li><a href="aboutUs.html">Portfolio</a></li>
-                <li><a href="showroom.html">Stores</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
+          <nav class="navbar navbar-inverse navbar-static-t nav-top ">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle bg-transparent" data-toggle="collapse" data-target="#myNavbar"><i
+                    class="fa fa-bars"></i> Menu
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav our-navbar">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="index.html/#news-teaser">News</a></li>
+                    <li><a href="aboutUs.html">Portfolio</a></li>
+                    <li><a href="showroom.html">Stores</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+              <a class="navbar-brand ml-auto " href="#">
+                <img src="images/logo.png" alt="logo" style="width:100px;" />
+              </a>
+          </nav>
+        </header>
+
+
+        
+<!--content of the page-->
+    <div class="container">
+       <h1 class="contact-heading">Contact</h1>
+    <div class="row">
+<!--first-->
+      <div class="d-none d-sm-block d-md-block col-lg-6 first-block">
+        <img class="card-img-top img-fluid telephone-pic" src="images/contact.jpg" alt="Card image cap">
+        <div class="card-body">
           </div>
-          <a class="navbar-brand ml-auto " href="#">
-            <img src="images/logo.png" alt="logo" style="width:100px;" />
-          </a>
-      </nav>
-    </header>
-    <!--heading contact-->
-    <h1 class="contactHeading">Contact</h1>
+      </div>
+      
 
 
-<!--picture -->
-<div class="bordermore " style="full-width";>
-  <div class="row no-gutters ">
-    <div class="col-md-4 ">
-    </div>
-    <div class=" col-md-8">
-  <!--forms-->
-  <div class=" col-md-8">
-    <form>
+<!--second-->
+      <div class="col-lg-6 second_block">
+      <div class="">
+        <div class="card-body form-box">
+    <form class ="form">
       <div class="form-group">
         <label for="exampleFormControlSelect1">City</label>
         <select class="form-control" id="exampleFormControlSelect1">
@@ -75,68 +74,63 @@
           <option>Customer service</option>
         </select>
       </div>
+      <br>
       <!--email-->
-     
+
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
           <small id="emailHelp" class="form-text text-muted"> Your data is protected</small>
         </div>
-        
+
         <!--message -->
     <div class="form-group">
       <label for="exampleFormControlTextarea1">Your message</label>
       <textarea class="form-control" id="usersMessage" rows="3" required ></textarea>
     </div>
-  
+
         <!--button-->
         <button type="button" class="btn btn-light" id="sendButton">Send</button>
+
+    </form>
       </div>
       </div>
     </div>
+
+</div>
+
+<!--second row-->
+<!--third-->
+<div class="col-md-12 third_block">
+  <div class="mapBox"> 
+    <div class="card-body mapBoxMap"> 
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2626.1772003254273!2d2.3491684!3d48.8357586!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67192d5ad9e7b%3A0x52ecd4ceaa128b6!2s9%20Rue%20des%20Gobelins%2C%2075013%20Paris%2C%20France!5e0!3m2!1sen!2sde!4v1579548799918!5m2!1sen!2sde" width="220" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+<p class="card-text adress"><small class="text-muted">  Our Headquarters <br> 9 Rue des Gobelins 75013 Paris France
+</small></p>
   </div>
-</form>
-<!--map-->
 
+</div>
 
-
-
-
-
-
-
-        <!-- Footer -->
-        <footer class="page-footer font-small">
-          <div class="footer-copyright text-center py-3">
-            © 2020 Copyright:
-            <a
-              class="text-dark"
-              href="https://mdbootstrap.com/education/bootstrap/"
-            >
-              Natsuko.com</a
-            >
-          </div>
-        </footer>
+</div>
+<!-- Footer -->
+<footer class="page-footer font-small">
+  <div class="footer-copyright text-center py-3">
+    © 2020 Copyright:
+    <a
+      class="text-dark"
+      href="https://mdbootstrap.com/education/bootstrap/"
+    >
+      Natsuko.com</a>
+  </div>
+</footer>
 
 
     <!-- Optional JavaScript -->
-    
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script type="text/javascript" src="showroom.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+      <script type="text/javascript" src="showroom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
