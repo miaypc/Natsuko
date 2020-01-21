@@ -17,9 +17,9 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-inverse navbar-static-t nav-top ">
-          <div class="container-fluid">
-            <div class="navbar-header"> 
+        <nav class="navbar navbar-inverse navbar-static-t fixed-top">
+          <div class="container-fluid ">
+            <div class="navbar-header pt-2"> 
               <button type="button" class="navbar-toggle bg-transparent" data-toggle="collapse" data-target="#myNavbar"><i
                   class="fa fa-bars"></i> Menu
                 <span class="icon-bar"></span>
@@ -29,32 +29,34 @@
               <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav our-navbar">
                   <li><a class="active" href="index.html">Home</a></li>
-                  <li><a href="#news-teaser">News</a></li>
+                  <li><a href="index.html">News</a></li>
                   <li><a href="aboutUs.html">Portfolio</a></li>
                   <li><a href="showroom.html">Stores</a></li>
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
               </div>
-            </div>
-            <a class="navbar-brand ml-auto " href="#">
-              <img src="images/logo.png" alt="logo" style="width:100px;" />
-            </a>
+              <a class="sticklogo" href="#">
+                <img src="images/logo.png" alt="logo" style="width:100px;" />
+              </a>    
+            </div>               
         </nav>
       </header>
 
         <!-- Home and Office content -->
-        <div class="homeandoffice card bg-white ">
-          <div class="row homeandofficeheading">
-            <div class="col-6 ">
-              <h3 class="homeofficetitle">Collection: Home</h3>
-              <p class="text"> 
+        <div class="container">
+          <div class="row homeandoffice">
+            <div class="col-12 col-md-6 text-center shadow">
+              <img class="rounded" src="images/home.JPG" alt="home photo" style="width:500px;">
+              <h3 class="hometitle">Collection: Home</h3>
+              <p class="homeofficetext text-left text-justify"> 
               Effortlessly organize and decorate your everyday living spaces and create a simply beautiful home.
               Inspirations for a modern, clean look for any room.
               </p>
             </div>
-            <div class="col-6">
-              <h3 class="homeofficetitle">Colletion: Office</h3>
-              <p class="text">
+            <div class="col-12 col-md-6 text-center shadow">
+              <img class="rounded" src="images/office.JPG" alt="home photo" style="width:500px;">
+              <h3 class="hometitle">Colletion: Office</h3>
+              <p class="homeofficetext text-justify">
                 Create productive working spaces with online 
                 interior design that takes your business to the next level, 
                 and reflects your values and ambitions.
@@ -64,6 +66,7 @@
         </div>
 
         <!-- Sliders -->
+        <h1 class="portfolio text-center text-dark">Portfolio</h1>
         <div
           id="carouselExampleIndicators"
           class="carousel slide page2photo"
@@ -123,9 +126,10 @@
           </a>
         </div>
         <!-- CEO Section -->
-        <div class="card bg-white ceo ">
+        <h1 class="text-center aboutus text-dark">About Us</h1>
+        <div class="card bg-white ceo w-75 mx-auto rounded shadow">
           <div class="row  ceo-heading">           
-            <div class="col-6">
+            <div class="col-md-6 col-12">
               <img
                 src="images/ceo.jpg"
                 class="img-fluid  mx-auto rounded d-block"
@@ -133,9 +137,9 @@
                 width="400"
               />
             </div>
-            <div class="col-5 ceo-text">
-              <h1 class="ceo-title">CEO</h1>
-              <p class="text">
+            <div class="col-md-6  col-12 ceo-text">
+              <h2 class="ceo-title text-dark">CEO</h2>
+              <p class="text text-justify text-dark">
                 An innovative interior design team, with a digital approach. 
                 Every connection we make with you is personal and unique. 
                 We aim to simplify commercial interior design and make it 
@@ -151,8 +155,8 @@
           </div>
         </div>
         <!-- Footer -->
-        <footer class="page-footer font-small">
-          <div class="footer-copyright text-center py-3">
+        <footer class="page-footer font-small ">
+          <div class="footer-copyright text-center py-2 bg-white text-dark">
             © 2020 Copyright:
             <a
               class="text-dark"
