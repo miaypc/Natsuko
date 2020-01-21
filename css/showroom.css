@@ -52,10 +52,3 @@ footer a:hover {
   color: black !important;
   text-decoration: none;
 }
-/////////////////////////////////////
-
-@media screen and (min-width: 770px) {
-  body {
-    background-color: blue;
-  }
-}
