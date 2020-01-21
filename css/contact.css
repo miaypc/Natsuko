@@ -18,11 +18,14 @@ body {
   border: 0 solid transparent;
   font-size: 1.5em;
 }
+
+/*page content*/
 h1 {
   font-size: 3.5em;
 }
-
-/*page content*/
+.col-md-4 {
+  background-image: url("images/contact.jpg");
+}
 .row no-gutters {
   margin-right: 100px;
   margin-left: 50px;
