@@ -85,7 +85,7 @@ body {
 
 /* orientation : landscape */
 
-@media only screen and (min-device-width: 280px) and (max-device-width: 700px) and (orientation: portrait) {
+@media only screen and (max-width: 710px) {
   /*logo home*/
   .logo {
     display: flex;
@@ -95,9 +95,13 @@ body {
 
   /*Links to Portfolio,
   Stores and News on home*/
-
+  .main-links.container {
+    flex-direction: column;
+    align-content: center;
+  }
   .main-links {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     height: 300px;
     align-content: space-between;
