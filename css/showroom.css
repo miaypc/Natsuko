@@ -24,21 +24,16 @@ body {
 }
 
 /*page content*/
-.heading {
-  font-size: 3.5em;
-  padding-top: 60px;
-}
-.card-img {
-  width: 100vw;
-  height: 100vh;
-}
-.card1 {
-  border: none;
-}
 
+/*container with a heading*/
 .header {
   margin-top: 50px;
   margin-bottom: 90px;
+}
+/*showrooms heading*/
+.heading {
+  font-size: 3.5em;
+  padding-top: 60px;
 }
 /*links*/
 .citylink {
@@ -48,12 +43,20 @@ body {
   color: black;
 }
 
+.card-img {
+  width: 100vw;
+  height: 100vh;
+}
+.card1 {
+  border: none;
+}
+
 /* Footer */
 footer a:hover {
   color: white !important;
   text-decoration: none;
 }
-
+/*device smaller*/
 @media screen and (max-width: 770px) {
   .heading {
     font-size: 2.5em;
