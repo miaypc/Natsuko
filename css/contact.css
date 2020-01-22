@@ -24,14 +24,14 @@ body {
 }
 
 /*page content*/
-.container {
-  padding: 50px;
-}
 .contact-heading {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 3.5em;
+}
+.container {
+  padding: 50px;
 }
 
 .telephone-pic {

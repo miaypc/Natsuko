@@ -40,10 +40,10 @@ buttonLondon.click(function() {
   if (timesClicked > 1) {
     // hide the message
     //readMoreLondon.style.display = "display: none"
-    console.log(hidden);
+    
   } else {
-    // show the message
-    console.log(showing);
+    return
+    
   }
 });
 */
