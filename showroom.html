@@ -3,10 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
 
     <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet" />
     <!-- Bootstrap CSS -->
@@ -18,15 +15,17 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/showroom.css" />
+    
+
 
     <title>natsuko</title>
   </head>
   <body>
 
     <header>
-      <nav class="navbar navbar-inverse navbar-static-t nav-top ">
-        <div class="container-fluid">
-          <div class="navbar-header"> 
+      <nav class="navbar navbar-inverse navbar-static-t fixed-top">
+        <div class="container-fluid ">
+          <div class="navbar-header pt-2"> 
             <button type="button" class="navbar-toggle bg-transparent" data-toggle="collapse" data-target="#myNavbar"><i
                 class="fa fa-bars"></i> Menu
               <span class="icon-bar"></span>
@@ -36,16 +35,16 @@
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav our-navbar">
                 <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="index.html/#news-teaser">News</a></li>
+                <li><a href="index.html#news-teaser">News</a></li>
                 <li><a href="aboutUs.html">Portfolio</a></li>
                 <li><a href="showroom.html">Stores</a></li>
                 <li><a href="contact.html">Contact</a></li>
               </ul>
             </div>
-          </div>
-          <a class="navbar-brand ml-auto " href="#">
-            <img src="images/logo.png" alt="logo" style="width:100px;" />
-          </a>
+            <a class="sticklogo" href="#">
+              <img src="images/logo.png" alt="logo" style="width:100px;" />
+            </a>    
+          </div>               
       </nav>
     </header>
 
@@ -66,7 +65,7 @@
 
     
    <!--Berlin-->
-      <div id ="berlin" class="card mb-3" style="full-width">
+      <div id ="berlin" class=" mb-3" style="full-width">
         <div class="row no-gutters">
           <div class="col-md-8">
             <img src="images/berlin.jpg" class="img-fluid card-img" alt="Responsive image">
@@ -74,18 +73,22 @@
           <div class="col-md-4">
             <div class="card-body">
               <h5  class="card-title berlin">Berlin</h5>
+              <p class="card-text">
+                <small class="text-muted">Showroom manager - Darci Partridge <br> darci.partridge@gmail.com</small>
+              </p>
               <p class="card-text">Scharnhorststraße 5 <br>
                 10115 Berlin, Germany</p>
-              <p class="card-text">
-                <small class="text-muted">Darci Partridge <br> darci.partridge@gmail.com</small>
-              </p>
+                <button type="button" class="btn btn-outline-secondary " id="buttonBerlin" >Learn more</button>
+     <p class="card-body read-more-berlin" id="readMoreBerlin" style = "display: none">
+      </p>
+              
             </div>
           </div>
         </div>
       </div>
   
     <!--Paris-->
-      <div id ="paris" class="card mb-3" style="full-width">
+      <div id ="paris" class=" mb-3" style="full-width">
         <div class="row no-gutters">
           <div class="col-md-8">
             <img src="images/studio2.jpg" class="img-fluid card-img" alt="Responsive image">
@@ -93,45 +96,57 @@
           <div class="col-md-4">
             <div class="card-body">
               <h5  class="card-title">Paris</h5>
-              <p class="card-text">9 Rue des Gobelins <br> 75013 Paris, France</p>
               <p class="card-text">
-                <small class="text-muted">Aimée Dalton <br> aimee.dalton@gmail.com</small>
+                <small class="text-muted">Showroom manager - Aimée Dalton <br> aimee.dalton@gmail.com</small>
               </p>
+              <p class="card-text">9 Rue des Gobelins <br> 75013 Paris, France</p>
+     <button type="button" class="btn btn-outline-secondary" id="buttonParis">Learn more</button>
+     <p class="card-body read-more-paris" id="readMoreParis" style = "display: none">
+      </p>
+     
+     
             </div>
           </div>
         </div>
       </div>
       
   <!--London-->
-      <div id ="london" class="card mb-3" style="full-width">
-        <div class="row no-gutters">
+      <div id ="london" class=" mb-3" style="full-width">
+        <div class="row no-gutters ">
           <div class="col-md-8">
             <img src="images/studio3.jpg" class="img-fluid card-img" alt="Responsive image">
           </div>
           <div class="col-md-4">
             <div class="card-body">
               <h5  class="card-title">London</h5>
-              <p class="card-text">191 Portobello Rd, Notting Hill <br> London W11 2ED, United Kingdom</p>
               <p class="card-text">
-                <small class="text-muted">Thomas Pearson <br> thomas.pearson@gmail.com</small>
+                <small class="text-muted">Showroom manager - Thomas Pearson <br> thomas.pearson@gmail.com</small>
               </p>
+              <p class="card-text">191 Portobello Rd, Notting Hill <br> London W11 2ED, United Kingdom</p>
+              <button type="button" class="btn btn-outline-secondary" id="buttonLondon">Learn more</button>
+     <p class="card-body read-more-london" id="readMoreLondon" style = "display: none">
+      </p>
+             
             </div>
           </div>
         </div>
       </div>
     </div>
       <!-- Footer -->
-            <footer class="page-footer font-small">
-              <div class="footer-copyright text-center py-3">
-                © 2020 Copyright:
-                <a
-                  class="text-dark"
-                  href="https://mdbootstrap.com/education/bootstrap/"
-                >
-                  Natsuko.com</a
-                >
-              </div>
-            </footer>
+      <footer class="page-footer font-small ">
+        <div class="footer-copyright text-center py-2 bg-white text-dark">
+          © 2020 Copyright:
+          <a
+            class="text-dark"
+            href="#"
+          >
+            Natsuko.com Website by Maja, Mia and Julia</a
+          >
+        </div>
+      </footer>
+
+
+            <script type="text/javascript" src="showroom-cities.js"></script>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

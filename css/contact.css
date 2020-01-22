@@ -6,8 +6,12 @@ body {
 }
 
 /* Nav Bar */
-.nav-top {
-  margin-top: 3vh;
+
+.sticklogo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
 }
 .our-navbar li a {
   text-decoration: none;
@@ -61,7 +65,8 @@ iframe {
   display: flex;
 }
 
+/* Footer */
 footer a:hover {
-  color: black !important;
+  color: white !important;
   text-decoration: none;
 }
