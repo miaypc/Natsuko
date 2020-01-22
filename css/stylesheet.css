@@ -81,7 +81,8 @@ body {
   padding: 0;
 }
 
-.teaser-card: {
+.teaser-card:hover {
+  zoom: 1.2;
 }
 
 /* Media Queries */
