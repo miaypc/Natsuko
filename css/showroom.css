@@ -24,8 +24,9 @@ body {
 }
 
 /*page content*/
-h1 {
+.heading {
   font-size: 3.5em;
+  padding-top: 60px;
 }
 .card-img {
   width: 100vw;
@@ -53,8 +54,20 @@ footer a:hover {
   text-decoration: none;
 }
 
-@media screen and (max-width: 700px) {
-  body {
-    background-color: lightgreen;
+@media screen and (max-width: 770px) {
+  .heading {
+    font-size: 2.5em;
+  }
+  .get-smaller-pic {
+    text-align: center;
+    width: 80vw;
+    height: 60vw;
+    /*TODO*/
+    /*margin-left: 15%;*/
+  }
+  .adress-card {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
 }
