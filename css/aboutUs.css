@@ -1,55 +1,66 @@
 body {
   margin: 0;
   padding: 0;
-  /* background-image: url("../images/white-4298475_1920.jpg");
-  background-repeat: no-repeat; */
   font-family: "Comfortaa", cursive;
 }
 
 /* Nav Bar */
-
-.sticklogo {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 1rem;
+.nav-button {
+  background-color: rgba(255, 255, 255, 0.534);
 }
+
 .our-navbar li a {
-  text-decoration: none;
   color: rgb(63, 60, 60);
 }
 
 .navbar-header button {
   border: 0 solid transparent;
-  font-size: 1.5em;
+  font-size: 1.3em;
+  background-color: rgba(255, 255, 255, 0.534);
+}
+
+.navbar-header button:focus {
+  outline: none;
+}
+
+#brand-logo {
+  position: fixed;
+  top: 0px;
+  right: 30px;
+}
+
+.all-navlinks {
+  font-size: 1em;
+  text-align: left;
+  padding-left: 5px;
+  line-height: 40px;
+  background-color: rgba(255, 255, 255, 0.534);
+  border: 0 solid transparent;
 }
 
 /* Home and Office */
-
 .homeandoffice {
   margin-top: 30vh;
-  margin-bottom: 30vh;
+  margin-bottom: 20vh;
 }
 
-.hometitle {
-  position: absolute;
-  color: white;
-  top: 30vh;
-  left: 5vw;
+.block-collection {
+  margin-bottom: 2em;
 }
-.homeofficetext {
+.block-collection-infos {
+  padding: 40px;
   position: absolute;
   color: white;
-  top: 40vh;
+  top: 25%;
   text-align: center;
-  padding-left: 5vw;
-  padding-right: 5vw;
 }
+
 /* Slider */
 .portfolio {
   margin-bottom: 10vh;
   letter-spacing: 1.5px;
 }
+
 /* CEO Section */
 .aboutus {
   margin-top: 20vh;
@@ -60,7 +71,6 @@ body {
   margin-bottom: 20vh;
   padding: 3%;
 }
-
 .ceo-title {
   padding-top: 1vh;
 }
@@ -70,6 +80,6 @@ body {
 
 /* Footer */
 footer a:hover {
-  color: white !important;
+  color: black !important;
   text-decoration: none;
 }
