@@ -8,3 +8,19 @@ button.addEventListener("click", event => {
     alert("Your email or message is too short. Please check your data.");
   } else alert("Your message has been sent! Thank You");
 });
+
+/*js sheet from the front page*/
+
+var prevScrollpos = window.pageYOffset;
+
+function brandLogoScroll() {
+  var logo = document.getElementById("brand-logo");
+  var currentScrollPos = window.pageYOffset;
+
+  if (prevScrollpos > currentScrollPos) {
+    logo.style.visibility = "visible";
+  } else {
+    logo.style.visibility = "hidden";
+  }
+  prevScrollpos = currentScrollPos;
+}

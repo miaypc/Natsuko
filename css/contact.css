@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  /*background-image: url("../images/white-4298475_1920.jpg");*/
   font-family: "Comfortaa", cursive;
 }
 
@@ -21,6 +20,14 @@ body {
 .navbar-header button {
   border: 0 solid transparent;
   font-size: 1.5em;
+}
+.navbar-header button:focus {
+  outline: none;
+}
+#brand-logo {
+  position: fixed;
+  top: 0px;
+  right: 30px;
 }
 
 /*page content*/

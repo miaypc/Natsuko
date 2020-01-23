@@ -22,6 +22,14 @@ body {
   border: 0 solid transparent;
   font-size: 1.5em;
 }
+.navbar-header button:focus {
+  outline: none;
+}
+#brand-logo {
+  position: fixed;
+  top: 0px;
+  right: 30px;
+}
 
 /*page content*/
 
