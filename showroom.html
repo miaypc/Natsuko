@@ -21,33 +21,39 @@
 
     <title>natsuko</title>
   </head>
-  <body>
 
-    <header>
-      <nav class="navbar navbar-inverse navbar-static-t fixed-top">
-        <div class="container-fluid ">
-          <div class="navbar-header pt-2"> 
-            <button type="button" class="navbar-toggle bg-transparent" data-toggle="collapse" data-target="#myNavbar"><i
-                class="fa fa-bars"></i> Menu
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="myNavbar">
-              <ul class="nav navbar-nav our-navbar">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="index.html#news-teaser">News</a></li>
-                <li><a href="aboutUs.html">Portfolio</a></li>
-                <li><a href="showroom.html">Showroom</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
-            <a class="sticklogo" href="#">
-              <img src="images/logo.png" alt="logo" style="width:100px;" />
-            </a>    
-          </div>               
-      </nav>
-    </header>
+  <body onscroll="brandLogoScroll()">
+
+  <!--Navigation menu-->
+  <nav class="nav-tag navbar navbar-inverse navbar-static-t fixed-top pl-0">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+
+
+        <button type="button" class=" nav-button navbar-toggle p-3 border-light rounded" data-toggle="collapse"
+          data-target="#myNavbar"><i class="fa fa-bars"></i> Menu
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a id="brand-logo" class="navbar-brand ml-auto" href="#">
+          <img src="images/logo.png" alt="logo" style="width:100px;" />
+        </a>
+        <div class="collapse navbar-collapse all-navlinks rounded" id="myNavbar">
+          <ul class="nav navbar-nav our-navbar">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="index.html#news-teaser">News</a></li>
+            <li><a href="aboutUs.html">Portfolio</a></li>
+            <li><a href="showroom.html">Showrooms</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+  </nav>
+</header>
+
 
     <!--page content-->
 
