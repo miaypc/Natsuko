@@ -19,8 +19,13 @@ body {
   background-color: rgba(255, 255, 255, 0.534);
 }
 
+.navbar-header button:focus {
+  outline: none;
+}
+
 #brand-logo {
-  position: absolute;
+  position: fixed;
+  top: 0px;
   right: 30px;
 }
 
