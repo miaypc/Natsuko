@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,17 +19,19 @@
     <!--Navigation menu-->
     <nav class="nav-tag navbar navbar-inverse navbar-static-t fixed-top pl-0">
       <div class="container-fluid">
-        
+
         <div class="navbar-header">
 
 
-          <button type="button" class=" nav-button navbar-toggle pt-3 border-light rounded" data-toggle="collapse"
-
+          <button type="button" class=" nav-button navbar-toggle p-3 border-light rounded" data-toggle="collapse"
             data-target="#myNavbar"><i class="fa fa-bars"></i> Menu
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <a id="brand-logo" class="navbar-brand ml-auto" href="#" onscroll="brandLogoScroll()">
+            <img src="images/logo.png" alt="logo" style="width:100px;" />
+          </a>
           <div class="collapse navbar-collapse all-navlinks rounded" id="myNavbar">
             <ul class="nav navbar-nav our-navbar">
               <li><a class="active" href="index.html">Home</a></li>
@@ -39,9 +42,7 @@
             </ul>
           </div>
         </div>
-        <a class="navbar-brand ml-auto " href="#">
-          <img src="images/logo.png" alt="logo" style="width:100px;" />
-        </a>
+
     </nav>
   </header>
 
@@ -182,7 +183,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"
     integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P"
     crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
