@@ -10,18 +10,27 @@ body {
 }
 
 .our-navbar li a {
-  text-decoration: none;
   color: rgb(63, 60, 60);
 }
 
-.navbar-header button,
-.all-navlinks {
+.navbar-header button {
   border: 0 solid transparent;
   font-size: 1.3em;
   background-color: rgba(255, 255, 255, 0.534);
+}
+
+#brand-logo {
+  position: absolute;
+  right: 30px;
+}
+
+.all-navlinks {
+  font-size: 1em;
   text-align: left;
   padding-left: 5px;
   line-height: 40px;
+  background-color: rgba(255, 255, 255, 0.534);
+  border: 0 solid transparent;
 }
 
 /*logo home*/
@@ -82,7 +91,8 @@ body {
 }
 
 .teaser-card:hover {
-  zoom: 1.2;
+  transform: scale(1.2);
+  transition: transform 0.3s;
 }
 
 /* Media Queries */
