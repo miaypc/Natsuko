@@ -26,14 +26,14 @@ buttonLondon.addEventListener("click", () => {
 // TO DO
 // figure out how second click can hide the message :)
 
-var timesClicked = 0;
+let timesClicked = 0;
 
 buttonLondon.click(function() {
   timesClicked++;
 
   if (timesClicked > 1) {
     // hide the message
-    //readMoreLondon.style.display = "display: none"
+    //readMoreLondon.style.display = "none";
     
   } else {
     return
