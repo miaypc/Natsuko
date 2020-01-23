@@ -2,57 +2,63 @@
 // figure out function to not repead the same code :)
 
 //paris
-let buttonParis = document.getElementById("buttonParis");
-
-buttonParis.addEventListener("click", () => {
-  readMoreParis.style.display = "block";
-});
+function showMoreInfoParis() {
+  var moreInfoParis = document.getElementById("more-info-paris");
+  if (moreInfoParis.style.display === "none") {
+    moreInfoParis.style.display = "block";
+  } else {
+    moreInfoParis.style.display = "none";
+  }
+}
 
 //berlin
-let buttonBerlin = document.getElementById("buttonBerlin");
-
-buttonBerlin.addEventListener("click", () => {
-  readMoreBerlin.style.display = "block";
-});
+function showMoreInfoBerlin() {
+  var moreInfoBrln = document.getElementById("more-info-berlin");
+  if (moreInfoBrln.style.display === "none") {
+    moreInfoBrln.style.display = "block";
+  } else {
+    moreInfoBrln.style.display = "none";
+  }
+}
 
 //london
-let buttonLondon = document.getElementById("buttonLondon");
+function showMoreInfoLondon() {
+  var moreInfoLdn = document.getElementById("more-info-london");
+  if (moreInfoLdn.style.display === "none") {
+    moreInfoLdn.style.display = "block";
+  } else {
+    moreInfoLdn.style.display = "none";
+  }
+}
 
-buttonLondon.addEventListener("click", () => {
-  readMoreLondon.style.display = "block";
-});
-
-/*
 // TO DO
 // figure out how second click can hide the message :)
 
-let timesClicked = 0;
+// let timesClicked = 0;
 
-buttonLondon.click(function() {
-  timesClicked++;
+// buttonLondon.click( Hide() {
+//   timesClicked++;
 
-  if (timesClicked > 1) {
-    // hide the message
-    //readMoreLondon.style.display = "none";
-    
-  } else {
-    return
-    
-  }
-});
-*/
+//   if (timesClicked > 1) {
+//     // hide the message
+//     readMoreLondon.style.display = "none";
+//   } else {
+//     return;
+//   }
+// });
+// Hide();
 
-/*js sheet from the front page */
-var prevScrollpos = window.pageYOffset;
+// /*js sheet from the front page */
+// var prevScrollpos = window.pageYOffset;
 
-function brandLogoScroll() {
-  var logo = document.getElementById("brand-logo");
-  var currentScrollPos = window.pageYOffset;
+// function brandLogoScroll() {
+//   var logo = document.getElementById("brand-logo");
+//   var currentScrollPos = window.pageYOffset;
 
-  if (prevScrollpos > currentScrollPos) {
-    logo.style.visibility = "visible";
-  } else {
-    logo.style.visibility = "hidden";
-  }
-  prevScrollpos = currentScrollPos;
-}
+//   if (prevScrollpos > currentScrollPos) {
+//     logo.style.visibility = "visible";
+//   } else {
+//     logo.style.visibility = "hidden";
+//   }
+//   prevScrollpos = currentScrollPos;
+// }
