@@ -5,27 +5,21 @@
 let buttonParis = document.getElementById("buttonParis");
 
 buttonParis.addEventListener("click", () => {
-  readMoreParis.style.display = "";
-  readMoreParis.textContent =
-    "Our wish is to offer you an intimate design experience attached to an authentic scenario. The apartment and its professional staff are ready to inspire all our visitors with a private tour over amazing stories behind the pieces.";
+  readMoreParis.style.display = "block";
 });
 
 //berlin
 let buttonBerlin = document.getElementById("buttonBerlin");
 
 buttonBerlin.addEventListener("click", () => {
-  readMoreBerlin.style.display = "";
-  readMoreBerlin.textContent =
-    "A private show flat in the heart of the world’s design capital: Paris. Our wish is to offer you an intimate design experience attached to an authentic scenario. A highly trained team is waiting to explain every detail of each brand, to tell the amazing stories behind the pieces and to answer all questions.";
+  readMoreBerlin.style.display = "block";
 });
 
 //london
 let buttonLondon = document.getElementById("buttonLondon");
 
 buttonLondon.addEventListener("click", () => {
-  readMoreLondon.style.display = "";
-  readMoreLondon.textContent =
-    "London's showroom is a concept store that reconfigures the way we shop for home goods. The shop itself functions as the apartment of the person who curates it, allowing visitors to get a true feel for the way the various pieces come together to make a home.";
+  readMoreLondon.style.display = "block";
 });
 
 /*
