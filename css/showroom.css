@@ -37,12 +37,12 @@ body {
 /*container with a heading*/
 .header {
   margin-top: 50px;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
 }
 /*showrooms heading*/
 .heading {
   font-size: 3.5em;
-  padding-top: 60px;
+  padding-top: 20px;
 }
 /*links*/
 .citylink {
@@ -61,22 +61,22 @@ body {
   background: url("../images/berlin.jpg");
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  background-position: center;
-  height: 600px;
+  background-position: bottom;
+  height: 390px;
 }
 .backgroundParis {
   background: url("../images/studio2.jpg");
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  background-position: center;
-  height: 600px;
+  background-position: top;
+  height: 390px;
 }
 .backgroundLondon {
   background: url("../images/studio3.jpg");
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-position: center;
-  height: 600px;
+  height: 390px;
 }
 
 /* Footer */

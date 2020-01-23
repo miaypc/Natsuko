@@ -44,8 +44,12 @@ body {
 
 .telephone-pic {
   margin-top: 28px;
-  height: 500px;
+  margin-left: 80px;
+  height: 450px;
   width: 327px;
+}
+.form-box {
+  margin-right: 80px;
 }
 .form {
   width: 300px;
@@ -77,4 +81,13 @@ iframe {
 footer a:hover {
   color: white !important;
   text-decoration: none;
+}
+
+@media screen and (max-width: 993px) {
+  .telephone-pic {
+    display: none;
+  }
+  .form-box {
+    align-content: center;
+  }
 }
