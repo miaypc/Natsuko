@@ -1,4 +1,3 @@
 function brandLogoScroll() {
-  debugger;
-  document.getElementById("brand-logo").style.display = "hidden";
+  document.getElementById("brand-logo").style.display = "none";
 }

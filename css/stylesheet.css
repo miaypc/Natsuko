@@ -91,7 +91,8 @@ body {
 }
 
 .teaser-card:hover {
-  zoom: 1.2;
+  transform: scale(1.2);
+  transition: transform 0.3s;
 }
 
 /* Media Queries */
