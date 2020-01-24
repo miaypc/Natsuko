@@ -10,68 +10,13 @@ for (let i = 0; i < cityBlockButtons.length; i++) {
     console.log(readMore[i].style.display);
     if (readMore[i].style.display === "none") {
       readMore[i].style.display = "block";
-      cityBlockButtons[i].innerHTML = "Read Less";
+      cityBlockButtons[i].innerHTML = "Hide";
     } else {
       readMore[i].style.display = "none";
-      cityBlockButtons[i].innerHTML = "Read More";
+      cityBlockButtons[i].innerHTML = "Learn more";
     }
   });
 }
-
-// //paris
-// function showMoreInfoParis() {
-//   var moreInfoParis = document.getElementById("more-info-paris");
-//   if (moreInfoParis.style.display === "none") {
-//     moreInfoParis.style.display = "block";
-//   } else {
-//     moreInfoParis.style.display = "none";
-//   }
-// }
-
-// //berlin
-// function showMoreInfoBerlin() {
-//   var moreInfoBrln = document.getElementById("more-info-berlin");
-//   if (moreInfoBrln.style.display === "none") {
-//     moreInfoBrln.style.display = "block";
-//   } else {
-//     moreInfoBrln.style.display = "none";
-//   }
-// }
-
-// //london
-// function showMoreInfoLondon() {
-//   let moreInfoLdn = document.getElementById("more-info-london");
-//   //let button = document.getElementById("readMoreLondonButton");
-//   if (moreInfoLdn.style.display === "none") {
-//     moreInfoLdn.style.display = "block";
-//   } else if (moreInfoLdn.style.display === "block") {
-//     moreInfoLdn.style.display = "none";
-
-//     // if(button.value === "Read more"){
-//     //   button.value = "Hide"
-//     // };
-//     // else (
-//     //  button.value = "Read more"
-//     // )
-//   }
-// }
-
-// TO DO
-// figure out how second click can hide the message :)
-
-// let timesClicked = 0;
-
-// buttonLondon.click( Hide() {
-//   timesClicked++;
-
-//   if (timesClicked > 1) {
-//     // hide the message
-//     readMoreLondon.style.display = "none";
-//   } else {
-//     return;
-//   }
-// });
-// Hide();
 
 /* js sheet from the front page */
 var prevScrollpos = window.pageYOffset;
