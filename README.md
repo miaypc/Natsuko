@@ -6,4 +6,4 @@ color scheme logo:
 - lightgrey #828282 (highlights)
 
 for favicon:
-please copy:<link rel="shortcut icon" type="image/png" href="images/favicon.png"/> into your <head> in html.
+please copy the link for favicon(in aboutus.html) into your head section in html.
