@@ -62,13 +62,34 @@ body {
 .teaser-card:hover {
   transform: scale(1.2);
   transition: transform 0.3s;
+  z-index: 1;
+}
+
+.news-image-exhibition {
+  background-image: url("../images/exhibition.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 46%;
+}
+
+.news-image-award {
+  background-image: url("../images/award.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 46%;
+  width: 100%;
+}
+
+.news-card-body {
+  overflow-y: auto;
+  height: 450px;
 }
 
 /* Media Queries */
 
-/* orientation : landscape */
-
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 500px) {
   /*logo home*/
   .logo {
     display: flex;
@@ -129,5 +150,17 @@ body {
     margin-top: 10px;
     padding-top: 10px;
     margin-bottom: 100px;
+  }
+
+  #exhibition,
+  #award {
+    flex-direction: column !important;
+    height: 500px;
+  }
+
+  .news-image-exhibition,
+  .news-image-award {
+    min-height: 30%;
+    margin-top: 20px;
   }
 }
