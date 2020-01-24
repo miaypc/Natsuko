@@ -84,14 +84,12 @@ body {
 
 .news-card-body {
   overflow-y: auto;
-  height: 500px;
+  height: 450px;
 }
 
 /* Media Queries */
 
-/* orientation : landscape */
-
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 500px) {
   /*logo home*/
   .logo {
     display: flex;
