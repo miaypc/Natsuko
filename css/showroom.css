@@ -45,22 +45,10 @@ body {
   padding-top: 20px;
 }
 
-#show {
-  display: block;
-}
-
-#show .btn {
-  display: block;
-  content: "whatever it is you want to add";
-}
-
-.city-block:open p {
-  display: block;
-}
-
-.cities-container .btn {
+.read-more {
   display: none;
 }
+
 /*links*/
 .citylink {
   color: black;
