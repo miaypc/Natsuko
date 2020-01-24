@@ -1,5 +1,20 @@
 //TO DO
 // figure out function to not repead the same code :)
+let cityBlockButtons = document.querySelectorAll(".city-block .btn");
+console.log(cityBlockButtons);
+
+for (let i = 0; i < cityBlockButtons.length; i++) {
+  cityBlockButtons[i].addEventListener("click", function() {
+    console.log(this);
+    this.toggleAttribute("open");
+    console.log(this.attributes.open);
+    if (this.attributes.open) {
+      this.innerText = "Hide";
+    } else {
+      this.innerText = "Read More";
+    }
+  });
+}
 
 //paris
 function showMoreInfoParis() {
@@ -23,11 +38,19 @@ function showMoreInfoBerlin() {
 
 //london
 function showMoreInfoLondon() {
-  var moreInfoLdn = document.getElementById("more-info-london");
+  let moreInfoLdn = document.getElementById("more-info-london");
+  //let button = document.getElementById("readMoreLondonButton");
   if (moreInfoLdn.style.display === "none") {
     moreInfoLdn.style.display = "block";
   } else {
     moreInfoLdn.style.display = "none";
+
+    // if(button.value === "Read more"){
+    //   button.value = "Hide"
+    // };
+    // else (
+    //  button.value = "Read more"
+    // )
   }
 }
 
@@ -48,17 +71,17 @@ function showMoreInfoLondon() {
 // });
 // Hide();
 
-// /*js sheet from the front page */
-// var prevScrollpos = window.pageYOffset;
+/* js sheet from the front page */
+var prevScrollpos = window.pageYOffset;
 
-// function brandLogoScroll() {
-//   var logo = document.getElementById("brand-logo");
-//   var currentScrollPos = window.pageYOffset;
+function brandLogoScroll() {
+  var logo = document.getElementById("brand-logo");
+  var currentScrollPos = window.pageYOffset;
 
-//   if (prevScrollpos > currentScrollPos) {
-//     logo.style.visibility = "visible";
-//   } else {
-//     logo.style.visibility = "hidden";
-//   }
-//   prevScrollpos = currentScrollPos;
-// }
+  if (prevScrollpos > currentScrollPos) {
+    logo.style.visibility = "visible";
+  } else {
+    logo.style.visibility = "hidden";
+  }
+  prevScrollpos = currentScrollPos;
+}
